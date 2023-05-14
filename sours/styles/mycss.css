@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+  font-family: Montserrat, serif;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, #fff 85%);
+
+}
+
+p {
+  color: rgb(59, 61, 60);
+}
+
+h3, h2 {
+  margin-top: 10px;
+  text-align: left;
+  font-size:0.5em;
+  color: rgb(190, 190, 190);
+}
+
+.w-90 {
+  height: 179px;
+  width: 405px;
+}
+
+.btn {
+  border-color: #000000;
+}
+
+.nav-link {
+  color:aquamarine;
+}
+.navbar-nav {
+  margin-left: 300px;
+}
+
+.navbar-nav .nav-link.active {
+  color:rgb(143, 142, 142);
+}
+
+.navbar-brand img {
+  width: 180px;
+  height: 35px;
+  margin: 15px 20px 15px 85px;
+  
+}
+
+.navbar-toggler {
+  background-color: rgb(143, 142, 142);
+}
+
+.sidebar {
+  background: rgba(0, 0, 0, 0) 
+}
+
+.sidebar > p {
+  color: rgb(199, 226, 217);
+}
+
+.card {
+  background-color: rgba(250, 250, 250, 0.644); 
+  color: rgb(83, 83, 83);
+}
+
+.card a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+
+.slide-text,
+.footer-text > p {
+  color: rgb(172, 169, 169);
+  margin: auto auto;
+}
+
+.row a {
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+}
+
+footer {
+  background: rgb(49, 49, 49);
+}
+
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-anim {
+  animation: call 2s ease 3s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  } 
+}
